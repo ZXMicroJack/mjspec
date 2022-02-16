@@ -15,8 +15,7 @@ Building
 - `make -C patches hyperloader.hex`
 - `cd roms; ./mkrom.sh; cd ..`
 - build the ZPU code on ctrl-module
-- use the `x` script in the script directory to build this project.  I will create an ISE project at 
-  some point, just have not gotten round to it yet.
+- Build using the .xise project files in the ./ise directory.
 
 Disclaimer: I use linux only in my work, so have not considered the need for Windows as yet.  I'm
 sure I'll get around to it.  Some mess exists, but since it's not a production ready piece of code

@@ -1,4 +1,5 @@
 /* This file is part of fpga-spec by ZXMicroJack - see LICENSE.txt for moreinfo */
+`default_nettype wire
 module kbmain(
   input kbd_clk,
   input kbd_data,
