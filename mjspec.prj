@@ -1,0 +1,49 @@
+verilog work "mjspec.v"
+
+verilog work tv80/tv80_alu.v
+verilog work tv80/tv80_core.v
+verilog work tv80/tv80_mcode.v
+verilog work tv80/tv80n.v
+verilog work tv80/tv80_reg.v
+verilog work tv80/tv80s.v
+
+verilog work clocks.v
+
+verilog work vga/vga.v
+verilog work vga/ram_dual.v
+verilog work vga/screen_buffer.v
+verilog work vga/spectrum.v
+verilog work vga/terminal.v
+verilog work vga/display.v
+verilog work vga/jupiterace.v
+verilog work vga/zx8x.v
+verilog work vga/zx8xram.v
+
+verilog work audio/dsdac1o.v
+verilog work audio/audio.v
+vhdl work audio/YM2149_linmix.vhd
+
+verilog work roms/roms.v
+
+verilog work keyboard/ps2.v
+verilog work keyboard/zxkeyboard.v
+verilog work keyboard/kbmain.v
+
+verilog work disk/wd1770.v
+
+vhdl work "../ctrl-module/CtrlModule/ZPUFlex/RTL/zpupkg.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/CharROM/CharROM_ROM.vhd"
+vhdl work "../ctrl-module/CtrlModule/ZPUFlex/RTL/zpu_core_flex.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/spi.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/OnScreenDisplay.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/io_ps2_com.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/interrupt_controller.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/Firmware/CtrlROM_ROM.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/OSD_Overlay.vhd"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/CtrlModule.vhd"
+verilog work "../ctrl-module/CtrlModule/CtrlModule/RTL/dpsram.v"
+verilog work "../ctrl-module/CtrlModule/CtrlModule/RTL/taploader2.v"
+vhdl work "../ctrl-module/CtrlModule/CtrlModule/RTL/simple_uart.vhd"
+
+verilog work "./fifo.v"
+verilog work "./spi.v"
